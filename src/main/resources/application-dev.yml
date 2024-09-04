@@ -1,0 +1,19 @@
+server:
+  port: 9000
+
+
+ehome:
+  # 公网ip
+  pu-ip: 192.168.11.199
+  # 内网ip
+  in-ip: 192.168.11.199
+  # ehome5.0秘钥
+  secret-key: hik12345
+  # cms服务端口
+  cms-port: 7660
+  # 流媒体预览端口
+  sms-preview-port: 7662
+  # rtmp推流地址
+  rtmp-url: rtmp://192.168.11.199:1935/live/
+  # hls播放地址
+  hls-url: https://localhost/live/index.m3u8
